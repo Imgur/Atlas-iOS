@@ -24,9 +24,9 @@
 #import "ATLMessagingUtilities.h"
 #import "ATLParticipant.h"
 
-CGFloat const ATLMessageCellHorizontalMargin = 16.0f;
-CGFloat const ATLAvatarImageLeadPadding = 12.0f;
-CGFloat const ATLAvatarImageTailPadding = 4.0f;
+CGFloat const ATLMessageCellHorizontalMargin = 12.0;
+CGFloat const ATLAvatarImageLeadPadding = 8.0f;
+CGFloat const ATLAvatarImageTailPadding = 8.0f;
 
 @interface ATLBaseCollectionViewCell ()
 
@@ -149,7 +149,7 @@ CGFloat const ATLAvatarImageTailPadding = 4.0f;
     [self.contentView addConstraint:self.bubbleViewWidthConstraint];
     [self.contentView addConstraint:[NSLayoutConstraint constraintWithItem:self.bubbleView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0]];
     [self.contentView addConstraint:[NSLayoutConstraint constraintWithItem:self.bubbleView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeTop multiplier:1.0 constant:0]];
-    [self.contentView addConstraint:[NSLayoutConstraint constraintWithItem:self.avatarView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
+    [self.contentView addConstraint:[NSLayoutConstraint constraintWithItem:self.avatarView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeBottom multiplier:1.0 constant:-4]];
 }
 
 - (void)configureCellForType:(ATLCellType)cellType
