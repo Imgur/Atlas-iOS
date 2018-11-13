@@ -1,15 +1,15 @@
 PODS:
   - Atlas (1.2.0):
-    - LayerKit (~> 4.0.0)
-  - Expecta (1.0.6)
-  - KIF (3.7.3):
-    - KIF/Core (= 3.7.3)
-  - KIF/Core (3.7.3)
+    - LayerKit (~> 4.0.2)
+  - Expecta (1.0.5)
+  - KIF (3.7.0):
+    - KIF/Core (= 3.7.0)
+  - KIF/Core (3.7.0)
   - KIFViewControllerActions (1.0.2):
     - KIF (>= 2.0.0)
-  - LayerKit (4.0.0)
+  - LayerKit (4.0.2)
   - LYRCountDownLatch (0.9.0)
-  - OCMock (3.4.1)
+  - OCMock (3.4.2)
 
 DEPENDENCIES:
   - Atlas (from `.`)
@@ -39,13 +39,13 @@ CHECKOUT OPTIONS:
     :git: https://github.com/layerhq/LYRCountDownLatch.git
 
 SPEC CHECKSUMS:
-  Atlas: 862849c658a53f9cf71251b79d5d4c72b09df706
-  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  KIF: 4c23b5d24dba24d3cb6dbb9c7d325b31e526ba4a
+  Atlas: 23d955c80e584e2646b8840a2524cfd904ac4d1c
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  KIF: 1b3a52314e7f0fb46585221724e183fec8785221
   KIFViewControllerActions: 923795dc4bd4ca5657841ce7455ce67447693861
-  LayerKit: 865c5fb9faaaf4fc785c910a8e66fcdef39ba771
+  LayerKit: da1aa4fbe8ed936c5bf5e2c50504eb099e30e3da
   LYRCountDownLatch: 9b440b42a19ddbf4e75bdd4b43726baa1527606a
-  OCMock: 2cd0716969bab32a2283ff3a46fd26a8c8b4c5e3
+  OCMock: ebe9ee1dca7fbed0ff9193ac0b3e2d8862ea56f6
 
 PODFILE CHECKSUM: 8961daffdeefa8d5f0425798d1cff0caed066344
 
